@@ -188,4 +188,12 @@
   #feedCompDiv {
     margin-top: 20px;
   }
+  .user_attachments {
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-bottom: none;
+    margin-left: 10px;
+    padding-bottom: 10px;
+  }
 }
