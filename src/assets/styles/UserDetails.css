@@ -63,6 +63,12 @@
   display: flex;
   justify-content: space-between;
 }
+.profile_viewed > small {
+  font-size: 14px;
+}
+.Line > small {
+  font-size: 12px;
+}
 .num {
   color: #0a66c2;
   font-weight: 400;

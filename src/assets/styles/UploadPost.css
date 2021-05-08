@@ -14,6 +14,7 @@
   width: 100%;
   cursor: pointer;
 }
+
 .userInput > input {
   margin-left: 10px;
   padding: 20px;
@@ -183,5 +184,8 @@
     height: 35px;
     border-radius: 20px;
     margin-right: 15px;
+  }
+  #feedCompDiv {
+    margin-top: 20px;
   }
 }

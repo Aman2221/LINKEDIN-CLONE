@@ -4,7 +4,6 @@ import { useStateValue } from '../../StateProvider'
 import  Linkedin_Logo  from '../img/Linkedin_Logo.png'
 import  link_black from '../img/link_black.png'
 import  google  from '../img/google.png'
-import Button from "@material-tailwind/react/Button";
 import '../styles/Login.css'
 
 const Login_signup = () => {
@@ -65,19 +64,12 @@ const Login_signup = () => {
                     )}
                 </button>
                 <p id='or'>or</p>
-                <Button
-                color="lightBlue"
-                buttonType="outline"
-                size="regular"
-                rounded={false}
-                block={false}
-                ripple="dark"
-                >
+                <button id='googleLoginBtn'>
                     <div id='googleDiv' onClick={handleGLogin}>
                         <img src={google} alt="google" />&nbsp;&nbsp;&nbsp;
                         <p>Join with Google</p>
                     </div>
-                </Button>
+                </button>
                 <h5>Already on Linkedin? <span onClick={changeText}>{text}</span></h5>
             </div>
             <footer className='footer' id='footer'>

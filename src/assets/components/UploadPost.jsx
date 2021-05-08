@@ -68,12 +68,14 @@ const UploadPost = () => {
             </div>
             {
                 data.map((item) => (
-                    <Feed 
-                        // id={id}
-                        userName = {item.userName}
-                        caption = {item.caption}
-                        imgSrc = {item.imgSrc}
-                    />
+                    <div id='feedCompDiv'>
+                        <Feed 
+                            // id={id}
+                            userName = {item.userName}
+                            caption = {item.caption}
+                            imgSrc = {item.imgSrc}
+                        />
+                    </div>
                 ))
             }
         </div>

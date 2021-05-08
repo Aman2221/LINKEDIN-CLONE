@@ -1,7 +1,5 @@
 import React from 'react'
 import '../styles/UserDetails.css'
-import ava from '../img/ava.png'
-import userEvent from '@testing-library/user-event'
 import { useStateValue } from '../../StateProvider';
 
 const UserDetails = () => {
