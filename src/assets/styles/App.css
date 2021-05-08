@@ -1,0 +1,21 @@
+.components {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.App > h5 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: grey;
+}
+.App > h5 > span {
+  color: #0a66c2;
+}
+@media screen and (max-width: 480px) {
+  .App > h5 {
+    font-size: 12px;
+  }
+}
